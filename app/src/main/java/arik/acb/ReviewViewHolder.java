@@ -22,7 +22,7 @@ public class ReviewViewHolder extends RecyclerView.ViewHolder {
         reviewUserName = (TextView)view.findViewById(R.id.textViewReviewUserName);
         reviewDescription = (TextView)view.findViewById(R.id.textViewReviewDescription);
 
-        reviewRating = (RatingBar)view.findViewById(R.id.ratingBarReview);
+        reviewRating = (RatingBar)view.findViewById(R.id.ratingBarReviewItem);
         reviewImage = (ImageView)view.findViewById(R.id.imageViewReviewAvatar);
 
     }

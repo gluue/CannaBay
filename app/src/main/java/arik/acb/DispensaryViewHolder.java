@@ -22,7 +22,7 @@ public class DispensaryViewHolder extends RecyclerView.ViewHolder {
         dispensaryName = (TextView)view.findViewById(R.id.textViewDispensaryName);
         dispensaryAddress = (TextView)view.findViewById(R.id.textViewDispensaryAddress);
         dispensaryWebsite = (TextView)view.findViewById(R.id.textViewDispensaryWebsite);
-        dispensaryRating = (RatingBar)view.findViewById(R.id.ratingBarDispensary);
+        dispensaryRating = (RatingBar)view.findViewById(R.id.ratingBarDispensaryItem);
         dispensaryImage = (ImageView)view.findViewById(R.id.imageViewDispensaryItem);
         button = (LinearLayout)view.findViewById(R.id.linearLayoutListButton);
     }

@@ -56,12 +56,11 @@
     <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ratingBarDispensary"
+        android:id="@+id/ratingBarDispensaryItem"
+        android:progressDrawable="@drawable/pot_rating_bar_full"
         android:focusable="false"
         android:clickable="false"
         android:numStars="5"
-        android:isIndicator="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>
