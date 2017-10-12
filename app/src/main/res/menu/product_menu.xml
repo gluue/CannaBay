@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/productMenuFlower"
+        android:icon="@drawable/leaf_icon"
+        android:title="Flower">
+    </item>
+
+    <item
+        android:id="@+id/productMenuConcentrate"
+        android:icon="@drawable/oil_icon"
+        android:title="Concentrate">
+    </item>
+
+    <item
+        android:id="@+id/productMenuEdible"
+        android:icon="@drawable/brownie_icon"
+        android:title="Edibles">
+    </item>
+
+
+</menu>

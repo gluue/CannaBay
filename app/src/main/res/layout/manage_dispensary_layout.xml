@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Product NAme"
+        android:id="@+id/editTextManageDispensaryProductName"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerManageDispensaryProductType"
+        android:layout_below="@+id/editTextManageDispensaryProductName"
+        >
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextManageDispensaryProductDetail"
+        android:layout_below="@+id/spinnerManageDispensaryProductType"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Product Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextManageDispensaryProductTHC"
+        android:layout_below="@+id/editTextManageDispensaryProductDetail"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Product THC"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextManageDispensaryProductCBD"
+        android:layout_below="@+id/editTextManageDispensaryProductTHC"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Product CBD"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextManageDispensaryProductCBC"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/editTextManageDispensaryProductCBD"
+        android:hint="Product CBC"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonManageDispensaryAddProduct"
+        android:layout_below="@+id/editTextManageDispensaryProductCBC"
+        android:layout_centerHorizontal="true"
+        android:text="ADd Product"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

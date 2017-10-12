@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewReviewAvatar"
+        android:src="@drawable/avatar_default"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReviewUserName"
+        android:layout_toEndOf="@+id/imageViewReviewAvatar"
+        android:text="UserName"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReviewDescription"
+        android:layout_below="@+id/textViewReviewUserName"
+        android:text="Description"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignStart="@+id/textViewReviewUserName"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:max="5"
+        android:id="@+id/ratingBarReview"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textViewReviewDescription"
+        android:layout_alignStart="@+id/textViewReviewUserName" />
+
+</RelativeLayout>

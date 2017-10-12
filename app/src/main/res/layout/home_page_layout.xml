@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHomeTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Home PAge"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textViewHomeTitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/textViewHomeNoHistory"
+            android:text="No Search History"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="History"
+            android:id="@+id/textViewHistoryListTitle"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvHistoryList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewHistoryListTitle"
+            android:visibility="visible"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

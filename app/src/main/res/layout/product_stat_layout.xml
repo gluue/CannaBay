@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewStatsTHC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="THC " />
+
+    <ImageView
+        android:id="@+id/imageViewStatsTHC"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewStatsTHC"
+        android:fitsSystemWindows="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutStatBox1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewStatsTHC"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/stat_box"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textViewProductStatBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="100" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewStatsCBD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewStatsTHC"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="CBD " />
+
+    <ImageView
+        android:id="@+id/imageViewStatsCBD"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewStatsCBD"
+        android:fitsSystemWindows="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutStatBox2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewStatsCBD"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/stat_box"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textViewProductStatBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="100" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewStatsCBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewStatsCBD"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="CBC " />
+
+    <ImageView
+        android:id="@+id/imageViewStatsCBC"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewStatsCBC"
+        android:fitsSystemWindows="true" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutStatBox3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewStatsCBC"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/stat_box"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textViewProductStatBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="100" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

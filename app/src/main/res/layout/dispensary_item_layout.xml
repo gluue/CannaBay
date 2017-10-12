@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutListButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/imageViewDispensaryItem"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDispensaryName"
+        android:layout_toEndOf="@+id/imageViewDispensaryItem"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageViewDispensaryItem"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textViewDispensaryAddress"
+        android:layout_below="@+id/textViewDispensaryName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imageViewDispensaryItem"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/textViewDispensaryWebsite"
+        android:layout_below="@id/textViewDispensaryAddress"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarDispensary"
+        android:focusable="false"
+        android:clickable="false"
+        android:numStars="5"
+        android:isIndicator="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

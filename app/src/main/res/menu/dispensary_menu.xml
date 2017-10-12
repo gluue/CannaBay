@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dispensaryMenuList"
+        android:icon="@drawable/list_icon"
+        android:title="Search Dispensaries">
+    </item>
+
+    <item
+        android:id="@+id/dispensaryMenuMap"
+        android:icon="@drawable/map_icon"
+        android:title="Dispensary Map">
+    </item>
+
+</menu>
